@@ -14,7 +14,7 @@ a {
 h1 {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 950;
 }
 
 a, 
@@ -33,13 +33,14 @@ a,
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 64px;
+    margin-bottom: 48px;
 }
 
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 700;
 }
 
 .links {
@@ -73,4 +74,34 @@ button {
 .lynx {
     width: 500px;
     height: 333px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 950;
+    color: #1F2937;
+    text-align: center;
+    margin: 48px;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+    padding-bottom: 64px;
+}
+
+.img-square {
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    border: solid 6px #3882F6;
+    background-color: #3882F6;
+}
+
+.container {
+    width: 200px;
+    text-align: center;
+    color: dimgray;
+    font-size: 18px;
 }
