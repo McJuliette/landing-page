@@ -137,6 +137,7 @@ h2 {
     margin: 100px 350px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     border-radius: 8px;
     padding: 48px;
     color: #E5E7EB;
@@ -154,4 +155,16 @@ h3 {
 
 .cta-button {
     border: solid white 2px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 32px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.github-link {
+    text-decoration: underline;
 }
